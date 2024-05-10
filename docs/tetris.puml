@@ -1,0 +1,26 @@
+@startuml
+class Juego
+class Tablero
+class Pieza
+class PiezaCuadrada
+class PiezaL
+class PiezaJ
+class PiezaT
+class PiezaS
+class PiezaZ
+class PiezaI
+
+Juego o-- Tablero
+Tablero o-- Pieza
+
+Pieza <|-- PiezaCuadrada
+Pieza <|-- PiezaL
+Pieza <|-- PiezaJ
+Pieza <|-- PiezaT
+Pieza <|-- PiezaS
+Pieza <|-- PiezaZ
+Pieza <|-- PiezaI
+
+@enduml
+
+
